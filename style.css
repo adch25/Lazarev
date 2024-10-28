@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+        /*! Css for navbar */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #111;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding: 0px 150px;
+}
+nav>li{
+    display: flex;
+    border-bottom: 3px solid orange;
+    padding: 24px 0px;
+}
+nav>li ul a{
+    padding: 5px;
+    text-decoration: none;
+}
+nav>li ul a:hover{
+    color:#0ba34e
+}
+nav>button{
+    background-color: #0ba34e;
+    cursor: pointer;
+    padding: 12px 15px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+}
+nav>button svg{
+    height: 16px;
+    padding-left: 15px;  
+}
+nav>button:hover{
+    background-color: #fff;
+    color: #0ba34e;
+}
+nav>button:hover svg path{
+    fill: #0ba34e;
+}
+
+        /*! Css for page-1 */
+
+#page-1{
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    width: 100%;
+}
+#page-1>h1{
+    font-size: 140px;
+    line-height: 130px;
+}
+#page-1>p{
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+.page1-ovel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.page1-ovel h4{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 12px;
+    border: 1px solid white;
+    border-radius: 50px;
+    border-radius: 50px;
+    margin: 2px;
+}
+.page1-ovel h4:nth-child(3){        
+    border: none;
+    padding: 0;
+}
+
+        /*! Css for page-2 */
+
+#page-2{
+    min-height: 100vh;
+    border-top: 2px solid #333;
+    background-color: #111;
+    padding: 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 8vw;
+}
+.page2-left{
+    width: 40%; 
+    padding: 60px 0px;
+}
+.page2-left h5{
+    width: 70%;
+    font-size: 20px;
+    padding-top: 150px;
+}
+.page2-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+}
+.page2-right h2{
+    border-bottom: 2px solid #333;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+        /*! Css for page-3 */
+
+#page-3{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+}
+.page3-left{
+    height: 100%;
+    width: 40%;
+}
+.page3-left h2{
+    color: #111;
+    font-size: 45px;
+}
+.page3-right{
+    height: 100%;
+    width: 51.5%;
+}
+.page3-right p{
+    color: #111;
+    font-size: 25px;
+}
+.page3-right h5{
+    font-weight: 700;
+    color: #999;
+    padding: 20px 0px;
+} 
+
+        /*! Css for page-4 */
+ 
+.page-4{
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 150px;
+    border-top: 1px solid #e1dede;
+}
+.box{
+    height: 320px;
+    width: 380px;
+    background-color: #f7f4f4;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 12px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.box-cont h1{
+    color: #111;
+    font-size: 60px;
+}
+.box-cont p{
+    color: #111;
+    font-size: 20px;
+}
+.box-page p{
+    color: #111;
+    font-size: 15px;
+}
+
+        /*! Css for page-5 */
+
+#page5-heading{
+    height: 60lvh;
+    background-color: #111;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2vw;
+}
+#page5-heading h1{
+    color: #fff;
+}
+#page-5{
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #111;
+    padding: 50px 150px;
+}
+#page-5>button{
+    background-color: #0ba34e;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    position: sticky;
+    top: 15%;
+}
+.page5-right{
+    width: 72%;
+}
+.page5-right>p{
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+.page5-right>p span{
+    width: 280px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+}
+.page5-heading2{
+    border-top: 4px solid #999;
+}
+.page5-heading2 h1{
+    font-size: 45px;
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+    margin: 5vh 0vh; 
+}
+.flex h4{
+    border: 1px solid rgb(237, 237, 237);
+    border-radius: 50px;
+    padding: 1vh 2vh;
+    font-size: 1.6vh;
+}
+.page5-elem{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+    padding-top: 2.5vh;
+    padding-bottom: 10vh;
+}
+.page5-elem p{
+    width: 70vh;
+    font-size: 2.4vh;
+}
+.page5-elem h3{
+    font-size: 3.3vh;
+    font-weight: 500;
+    width: 30vh;
+}
+.page5-elem:hover{
+    background-color: #222;
+    border-top: 2px solid white;
+}
+.page5-elem:hover h3{
+    padding-left: 5vh;
+}
+summary::marker{
+    content: "";
+}
+
+        /*! media quarry of this */
+
+@media (max-width: 768px){
+    nav{
+        padding: 0px 50px;
+    }
+    nav>li{
+        display: none;
+    }
+
+        /*! Css for page-1 */
+
+    #page-1>h1{
+        font-size: 40px;
+        line-height: 70px;
+    }
+    #page-1>p{
+        font-size: 23px;
+        padding: 0px 20px;
+    }
+    .page1-ovel{
+        padding: 0px 20px;
+    }
+    .page1-ovel h4{
+        font-size: 20px;
+        padding: 2px 12px;
+        border-radius: 50px;
+    }
+
+        /*! Css for page-2 */
+
+    #page-2{
+        padding: 0px 15px;
+        flex-direction: column;
+    }
+    .page2-left{
+        width: 100%;
+    }
+    .page2-left p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .page2-left h5{
+        width: 100%;
+        font-size: 27px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .page2-right{
+        width: 100%;
+        align-items: center;
+    }
+
+        /*! Css for page-3 */
+
+    #page-3{
+        flex-direction: column;
+        padding: 100px 50px;
+    }
+    .page3-left{
+        width: 100%;
+    }
+    .page3-left h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .page3-right{
+        width: 100%;
+    }
+    .page3-right h5{
+        font-size: 20px;
+    }
+
+        /*! Css for page-4 */
+    .page-4{
+        padding: 50px 20px;
+    }
+    .box{
+        height: 220px;
+    }
+    .box-cont h1{
+        font-size: 40px;
+    }
+    .box-page p{
+        font-size: 20px;
+    }
+
+        /*! Css for page-5 */
+
+    #page5-heading{
+        height: 40lvh;
+        font-size: 4vw;
+    }
+    #page-5>button{
+        display: none;
+    }
+    #page-5{
+        padding: 50px 20px;
+    }
+    .page5-right>p span{
+        display: none;
+    }
+    .page5-right>p{
+        font-size: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .page5-right{
+        width: 100%;
+    }
+    .page5-heading2 h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        margin: 3vh 0vh; 
+    }
+    .flex h4{
+        font-size: 2vh;
+    }
+    .page5-elem{
+        flex-direction: column;
+    }
+    .page5-elem i{
+        display: none;
+    }
+    .page5-elem p{
+        width: 100%;
+        font-size: 2.4vh;
+    }
+}
